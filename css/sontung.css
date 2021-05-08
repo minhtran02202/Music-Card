@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body
+{
+    overflow-x: hidden;
+    background-color: #fbdfde;
+    background-image: url("https://r1.ilikewallpaper.net/iphone-x-wallpapers/download/100236/beach-shore-sunset-iphone-x-wallpaper-ilikewallpaper_com.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.slide-container
+{
+    margin: auto;
+    width: 540px;
+    height: 800px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+    object-fit: cover;
+    top: 70px;
+}
+.cards
+{
+    width: 540px;
+    height: 800px;
+    object-fit: cover;
+    /* Time take for each transition */
+    transition: .5s all;
+    top: 5vh;
+}
+
+.prev{
+    position: absolute;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 40px;
+    background-color: black;
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    left: 8%;
+    top: 81%;
+
+}
+.next{
+    position: absolute;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 40px;
+    background-color: black;
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    right: 8%;
+    top: 81%;
+
+}
+audio
+{
+    position: absolute;
+    top: 80%;
+}
