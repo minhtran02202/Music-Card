@@ -10,3 +10,5 @@ Learn about beautiful, user friendly design
 Learn how to inlclude sound files
 
 I should made it so user can input the images, titles, and songs. (right now I have to hard coded these in)
+
+![image](https://github.com/minhtran02202/Music-Card/blob/main/img/bigbang.jpg)
